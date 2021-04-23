@@ -1,78 +1,123 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    padding: 20px 60px;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
 }
-header{
-    height: 100px;
-    background-color: #E579E6;
-    margin-bottom: 20px;
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
-#logo{
-    height: 100px;
+
+/* commons */
+
+h2 {
+    font-family: 'Oswald', sans-serif;
 }
-a{
+
+li {
+ list-style: none;
+}
+
+a {
     text-decoration: none;
 }
-nav{
-    padding: 20px;
+
+/* header */
+header {
+    margin-bottom: 20px;
 }
+
+/* nav {
+    height: 70px;
+    line-height: 70px;
+} */
+
+/* oppure se non voglio dare un'altezza */
+
+nav {
+    padding: 20px 0;
+}
+
 nav li {
     display: inline-block;
     margin-right: 10px;
 }
+
 nav li a {
     color: grey;
     text-transform: uppercase;
     font-size: 16px;
 }
-.sezione-top{
-    height: 400px; /*andrà tolta */
-    background-color: #E1D67A;
-    margin-bottom: 20px;
+
+
+.jumbotron {
+    margin-top: 20px;
 }
-.clearfix:after{
-    clear: both;
-    content: "";
+
+/* main */
+
+.col-sx, 
+.col-dx {
+    width: 23%;
+    float:left;
+}
+
+.container-main {
+    width: 50%;
+    margin: 0 2%;
+    float:left;
+}
+
+.section-main{
+    margin: 20px 0;
+}
+
+.section-main::after {
+    content:'';
     display: table;
+    clear:both;
 }
-.sezione-bot{
-    /*andrà tolta */
-    background-color: #0086FF;
-    margin-bottom: 20px;
-}              
-.riga-top{
+
+/* debug - sezione che andrò ad elimininare */
+.debug #logo {
+    height: 70px;
+    background-color: green;
+}
+
+.debug nav {
+    background-color:lightblue;
+}
+
+.debug .jumbotron {
+    height: 400px;
+    background-color: tomato;
+}
+
+
+.debug .section-title{
+    height: 70px;
+    background-color: cyan;
+}
+
+.debug .col-sx,
+.debug .col-dx {
+    height: 500px;
+    background-color: yellow;
+}
+
+.debug .container-main {
+    height: 500px;
+    background-color: red;
+}
+
+
+.debug footer{
     height: 40px;
-    background-color: #ABCFE7;
-    margin-bottom: 50px;
-}
-.colonna{
-    float: left;
-    margin-bottom: 20px;
-}
-.sinistra{
-    width: 32%;
-    margin-right: 2%;
-    background-color: #ABCFE7;  
-    height: 600px;/* va tolta */
-    
-}
-.centrale{
-    width: 32%;
-    margin-right: 2%;
-    background-color: #ABCFE7; 
-    height: 600px;/* va tolta */
-    
-}
-.destra{
-    width: 32%;
-    background-color: #ABCFE7; 
-    height: 600px;/* va tolta */
-}
-footer{
-    height: 80px;
-    background-color: #8801FE;
+    background-color: violet;
 }
