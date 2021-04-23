@@ -109,17 +109,32 @@ nav li a {
 }
 
 .uomo{
-    height: 280px;
-    width: 620px;
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
     opacity: 0.5;
+    height: 300px;
 }
 .opacity{
     opacity: 0.5;
     height: 280px;
-
 }
 .lampada{
-    width: 280px;
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    opacity: 0.5;
+    height: 300px;
+}
+.pianta{
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    opacity: 0.5;
+    height: 300px;
+}
+.cuore{
+    color: red;
+}
+footer{
+    text-align: center;
 }
 /* debug - sezione che andrò ad elimininare */
 /* .debug #logo {
@@ -154,7 +169,7 @@ nav li a {
 } */
 
 
-.debug footer{
+/* .debug footer{
     height: 40px;
     background-color: violet;
-}
+} */
