@@ -52,14 +52,19 @@ nav li a {
     font-size: 16px;
 }
 
+.bgc-scuro{
+    background-color: black;
+    border-radius: 10px;
 
+}
 .jumbotron {
     margin-top: 20px;
     background-image: url(../img/banner.jpg);
     background-position: center;
     margin-bottom: 50px;
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.5;
+    
 }
 
 .testo-img{
@@ -104,8 +109,17 @@ nav li a {
 }
 
 .uomo{
-    height: 300px;
+    height: 280px;
     width: 620px;
+    opacity: 0.5;
+}
+.opacity{
+    opacity: 0.5;
+    height: 280px;
+
+}
+.lampada{
+    width: 280px;
 }
 /* debug - sezione che andrò ad elimininare */
 /* .debug #logo {
@@ -123,7 +137,7 @@ nav li a {
 } */
 
 
-.debug .section-title{
+/* .debug .section-title{
     height: 70px;
     background-color: cyan;
 }
@@ -132,12 +146,12 @@ nav li a {
 .debug .col-dx {
     height: 500px;
     background-color: yellow;
-}
+} */
 
-.debug .container-main {
+/* .debug .container-main {
     height: 500px;
     background-color: red;
-}
+} */
 
 
 .debug footer{
