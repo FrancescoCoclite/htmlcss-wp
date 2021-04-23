@@ -33,12 +33,9 @@ header {
     margin-bottom: 20px;
 }
 
-/* nav {
+.logo{
     height: 70px;
-    line-height: 70px;
-} */
-
-/* oppure se non voglio dare un'altezza */
+}
 
 nav {
     padding: 20px 0;
@@ -58,6 +55,28 @@ nav li a {
 
 .jumbotron {
     margin-top: 20px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.testo-img{
+    float:left;
+    font-size: 20px; 
+    color: lightslategray;
+}
+.top{
+    margin: 220px 70px 0px 40px;
+}
+.bot{
+    margin: 0px 90px 20px 40px;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
 }
 
 /* main */
@@ -85,19 +104,19 @@ nav li a {
 }
 
 /* debug - sezione che andrò ad elimininare */
-.debug #logo {
+/* .debug #logo {
     height: 70px;
     background-color: green;
-}
+} */
 
-.debug nav {
+/* .debug nav {
     background-color:lightblue;
-}
+} */
 
-.debug .jumbotron {
+/* .debug .jumbotron {
     height: 400px;
     background-color: tomato;
-}
+} */
 
 
 .debug .section-title{
