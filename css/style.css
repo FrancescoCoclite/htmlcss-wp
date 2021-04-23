@@ -103,6 +103,10 @@ nav li a {
     clear:both;
 }
 
+.uomo{
+    height: 300px;
+    width: 620px;
+}
 /* debug - sezione che andrò ad elimininare */
 /* .debug #logo {
     height: 70px;
