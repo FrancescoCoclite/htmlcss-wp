@@ -88,14 +88,17 @@ nav li a {
 
 .col-sx, 
 .col-dx {
-    width: 23%;
+    width: 30%;
     float:left;
+    font-size: 16px;
 }
 
 .container-main {
-    width: 50%;
+    width: 30%;
     margin: 0 2%;
     float:left;
+    font-size: 16px;
+}
 }
 
 .section-main{
@@ -136,6 +139,29 @@ nav li a {
 footer{
     text-align: center;
 }
+.pippo{
+ color: black;
+ margin-right: 6px;
+ font-weight: bold;
+}
+.riga-pippo{
+   vertical-align: 5px;
+} 
+.uomo-pc{
+    background-image: url(../img/img-4.jpg);
+    margin-top: 30px;
+}
+.ragazzi{
+    background-image: url(../img/img-5.jpg);
+    margin-top: 30px;
+}
+.ragazza-pc{
+    background-image: url(../img/img-6.jpg);
+    margin-top: 30px;
+
+}
+
+ 
 /* debug - sezione che andrò ad elimininare */
 /* .debug #logo {
     height: 70px;
